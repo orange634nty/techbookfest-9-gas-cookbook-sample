@@ -24,7 +24,7 @@ function buildMergeRequestEmbed(mergeRequests) {
   const title = mergeRequests.length === 0 ? "レビュー待ちのMRはありません" : `レビュー待ちMRが${mergeRequests.length.toString()}個あります`
   return {
     title: title,
-    url: "https://gitlab.com/kemo-remember/kfremember/merge_requests?label_name%5B%5D=please+review",
+    url: "https://gitlab.com/dummy/dummy-project/merge_requests?label_name%5B%5D=please+review",
     color: 16754260,
     fields: buildNotifyFields(mergeRequests)
   }
