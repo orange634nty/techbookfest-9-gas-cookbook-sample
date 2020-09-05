@@ -27,10 +27,10 @@ function buildCommentEmbed(req) {
  * Webhook を使って Discord へ投稿する
  */
 function postToDiscord(embeds) {
-  const DISOCRD_WEBHOOK_TOKEN = "dummy"
+  const DISCORD_WEBHOOK_TOKEN = "dummy"
   const DISCORD_WEBHOOK_URL = "dummy_url"
   const jsonData = {
-    token: DISOCRD_WEBHOOK_TOKEN,
+    token: DISCORD_WEBHOOK_TOKEN,
     embeds: embeds
   }
   const options = {
